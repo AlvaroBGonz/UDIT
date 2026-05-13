@@ -1,0 +1,22 @@
+Introducción
+Este trabajo final representa el final de la asignatura Visión Artificial. En esta disciplina se han
+proporcionado el marco teórico y las herramientas prácticas necesarias para abordar un desafío
+práctico: la conducción autónoma.
+En este contexto, el trabajo se centra en la aplicación de los conocimientos adquiridos en ambas
+asignaturas a un problema específico: la detección de objetos en entornos 2D para la
+conducción autónoma. Los alumnos utilizarán los conceptos y técnicas aprendidos para
+desarrollar un modelo capaz de predecir con precisión la presencia y ubicación de diversos
+objetos relevantes para la conducción, como vehículos, peatones y señales de tráfico.
+Objetivos
+1. Escoger un modelo para realizar la detección y justificar porque se ha escogido.
+2. Análisis del modelo, relacionando los conceptos en los que se fundamenta con aquellos
+aprendidos en clase.
+3. Convertir el formato del dataset del formato COCO al formato YOLO.
+4. Entrenamiento de varios modelos en el dataset aportado utilizando varias de las técnicas
+vistas en clase (finetuning, transfer learning, from scratch), variando hiperparámetros
+y/o realizando aumento de datos.
+5. Presentación y análisis de los resultados en base a las métricas establecidas,
+comparando los resultados de los diferentes análisis realizados en el punto 4.
+6. Añadir un algoritmo de tracking al modelo.
+7. Ejecución del modelo con el tracker sobre un video establecido, estableciendo unos
+valores finales de threshold para el modelo y el tracker
