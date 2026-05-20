@@ -5,7 +5,7 @@ from ultralytics import YOLO
 import fiftyone.utils.ultralytics as fou
 
 def load_yolo_dataset(dataset_dir,split):
-    dataset = fo.Dataset.from_dir(dataset_type=fo.types.YOLOv5Dataset,dataset_dir= dataset_dir,yaml_path=f"{dataset_dir}/dataset.yaml",split=split)
+    dataset = fo.Dataset.from_dir(dataset_type=fo.types.YOLOv5Dataset,dataset_dir= dataset_dir,yaml_path=f"{dataset_dir}/data.yaml",split=split)
     dataset.compute_metadata()
     return dataset
 
